@@ -49,14 +49,14 @@ nav .mtavari {
 }
 .image1 {
   height: 595px;
-  width: 684px;
+  width: 550px;
 }
 .image2 {
   width: 707px;
   height: 597px;
 }
 .image3 {
-  width: 684px;
+  width: 550px;
   height: 595px;
 }
 .controls {
@@ -118,4 +118,38 @@ nav .mtavari {
   display: block;
   border: 8px solid #0a22f4;
   background: #fff;
+}
+.services {
+  padding: 60px 20px;
+}
+.services__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  margin-left: 80px;
+}
+.service__cards {
+  display: flex;
+  gap: 25px;
+  padding-bottom: 20px;
+  margin: 80px;
+  margin-top: 40px;
+}
+.service__card p {
+  font-size: 16px;
+  line-height: 1.2;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  background: gray;
+  margin-bottom: 20px;
+}
+.icon__blue {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  background: #0a22f4;
+  margin-bottom: 20px;
 }
