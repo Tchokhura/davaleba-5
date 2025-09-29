@@ -1,3 +1,4 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-le-studio-04-caps/css/bpg-le-studio-04-caps.min.css");
 * {
   margin: 0;
   padding: 0;
@@ -97,11 +98,13 @@ nav .mtavari {
   margin-bottom: 18px;
   color: #0a0a0a;
   font-weight: 800;
+  font-family: "BPG LE Studio 04 Caps", sans-serif;
 }
 .about__text p {
   line-height: 1.4;
   color: #2b2b2b;
   margin-bottom: 18px;
+  font-family: "BPG LE Studio 04 Caps", sans-serif;
 }
 .about__link {
   color: #0a22f4;
@@ -138,6 +141,7 @@ nav .mtavari {
 .service__card p {
   font-size: 16px;
   line-height: 1.2;
+  font-family: "ArchyEDT-Bold", sans-serif;
 }
 .icon {
   width: 60px;
