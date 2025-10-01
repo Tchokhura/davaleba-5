@@ -6,7 +6,8 @@
 }
 header,
 .images,
-.controls {
+.controls,
+footer {
   background-color: #0a22f4;
   display: flex;
   justify-content: space-between;
@@ -14,7 +15,7 @@ header,
 }
 header nav ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   gap: 32px;
   margin-top: 15px;
   margin-right: 200px;
@@ -120,7 +121,10 @@ nav .mtavari {
   height: auto;
   display: block;
   border: 8px solid #0a22f4;
+  border-top: none;
+  border-left: none;
   background: #fff;
+  border-radius: 15px;
 }
 .services {
   padding: 60px 20px;
